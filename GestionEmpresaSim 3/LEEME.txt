@@ -1,0 +1,35 @@
+SIMULADOR DE GESTION EMPRESARIAL  (Ciclo Formativo de Gestion Administrativa)
+==========================================================================
+
+CONTENIDO
+  index.html            El programa completo (un unico archivo).
+  datos/fiscal.json     Cuotas de autonomos, SMI, IPC, Seguridad Social, IRPF, IS... por año (2023-2026).
+  datos/catalogo.json   19 sectores y 116 productos/servicios.
+  datos/enunciados.json Los 30 enunciados (perfiles) con ubicacion y pistas.
+  datos/datos.js        Copia de los 3 JSON para abrir index.html con doble clic (se regenera con generar_datos_js.py).
+  app.py                Lanzador: ventana de escritorio + guardado en archivo.
+  crear_exe.bat         Genera el .exe con PyInstaller.
+
+PROBARLO YA
+  Opcion 1: doble clic en index.html (funciona en Chrome/Edge; guarda en el navegador).
+  Opcion 2: pip install pywebview  y despues  python app.py   (ventana propia; guarda en %APPDATA%\SimuladorGestion\empresas.json)
+
+CREAR EL .EXE
+  Doble clic en crear_exe.bat  (o:  pyinstaller --onefile --windowed --add-data "index.html;." --add-data "datos;datos" app.py)
+
+NOTA SOBRE TKINTER: tkinter no puede mostrar paginas web modernas (JavaScript/CSS), por eso la ventana
+usa pywebview (que usa el motor de Edge en Windows). Si no esta instalado, app.py abre una ventana tkinter
+con un boton que lanza el programa en el navegador.
+
+COMO FUNCIONA
+  1. "Nuevo ejercicio" -> lees el enunciado (o eliges numero 1-30). Los ejercicios no se repiten.
+  2. Forma juridica -> nombre y logo -> capital/prestamo -> productos/servicios -> modalidad/empleados -> año (2023-2025).
+  3. El programa simula mes a mes toda la vida de la empresa hasta hoy con cuotas, IVA, IRPF/IS, SMI, inflacion y
+     estacionalidad reales/aproximados, y lo registra en un libro diario (PGC).
+  4. Paneles: Inicio (graficas), Inventario, Facturas, Clientes, Contabilidad (diario, mayor, sumas y saldos,
+     cuenta de resultados, balance, analisis/diagnostico), Impuestos, Enunciado y Ajustes.
+  5. Eliminar una empresa la deja BLOQUEADA en la lista y su ejercicio no vuelve a salir.
+
+DATOS: cuotas de autonomos, SMI, IPC y tipos de cotizacion basados en datos oficiales publicados (2023-2026).
+Indices de energia/alimentacion/alquiler, tipos de interes, eventos y el comportamiento de la demanda son
+ESTIMACIONES DIDACTICAS. Todos los clientes, NIF y empresas son ficticios.

@@ -1,0 +1,1386 @@
+[
+ {
+  "id": 1,
+  "titulo": "La joven maestra sin local",
+  "nombre": "Lucía Martínez",
+  "edad": 22,
+  "estado_civil": "soltera",
+  "hijos": 0,
+  "ahorros": 6000,
+  "max_prestamo": 0,
+  "retiro": 700,
+  "vivienda": "Vive con sus padres",
+  "estudios": "Magisterio (2 cursos), certificado B2 de inglés",
+  "experiencia": "Tres años de refuerzo escolar informal a vecinos",
+  "patrimonio": "Ninguno",
+  "afinidad": {
+   "formacion": 1.15,
+   "consultoria": 0.55,
+   "software": 0.45,
+   "artesania": 0.4,
+   "moda": 0.25,
+   "hosteleria": 0.2
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "formacion",
+   "modalidad": "domicilio",
+   "nota": "Poco capital, ningún patrimonio y una idea de servicios con costes mínimos: autónoma, trabajando a domicilio o con un local muy pequeño y sin stock."
+  },
+  "texto": [
+   "Lucía tiene 22 años, es soltera y vive con sus padres en Cuenca. Dejó Magisterio en segundo curso porque necesitaba dinero y desde entonces da refuerzo escolar a niños del barrio por 10 € la hora, siempre en negro y por boca a boca. Tiene el B2 de inglés y todas las madres del barrio le piden más horas de las que puede dar.",
+   "Tiene 6.000 € ahorrados, no tiene coche ni vivienda a su nombre y ningún banco le daría un préstamo sin aval. Sus padres no pueden ayudarla económicamente. Necesita sacar al menos 700 € al mes para sus gastos personales (móvil, transporte y ahorro).",
+   "Quiere dar el paso y hacerlo en regla: ofrecer clases, y si va bien, ampliar con academia o cursos. En Cuenca hay pocas academias, la población es mayor y la gente joven se marcha a Madrid o Valencia. No tiene experiencia en comercio, ni en moda, ni en hostelería, y no quiere endeudarse.",
+   "¿Qué forma jurídica elegirías? ¿Qué vendería y cómo? Piensa en capital, riesgo y tipo de actividad."
+  ],
+  "dificultad": 1,
+  "ubicacion": {
+   "ciudad": "Cuenca",
+   "provincia": "Cuenca",
+   "ccaa": "Castilla-La Mancha",
+   "poblacion": 54000,
+   "tier": 0.75,
+   "alquiler_idx": 0.65,
+   "eventos": [],
+   "descripcion": "Ciudad pequeña y monumental, con mucha población mayor y pocos negocios jóvenes."
+  }
+ },
+ {
+  "id": 2,
+  "titulo": "La tienda de ropa de Paiporta",
+  "nombre": "Carlos Ruiz",
+  "edad": 29,
+  "estado_civil": "soltero",
+  "hijos": 0,
+  "ahorros": 18000,
+  "max_prestamo": 20000,
+  "retiro": 1100,
+  "vivienda": "Vive en un piso de alquiler (550 €/mes)",
+  "estudios": "Grado Medio en Confección y Moda; curso de visual merchandising",
+  "experiencia": "6 años como encargado de tienda en una cadena textil",
+  "patrimonio": "",
+  "afinidad": {
+   "moda": 1.15,
+   "deporte": 0.55,
+   "hogar": 0.45,
+   "artesania": 0.5,
+   "tecnologia": 0.25,
+   "hosteleria": 0.3
+  },
+  "ideal": {
+   "forma": "sl",
+   "sector": "moda",
+   "modalidad": "local",
+   "nota": "Experiencia clara en moda y capacidad de endeudarse con aval familiar. Una SL limita su responsabilidad. Ojo con la DANA de octubre de 2024: si empezó antes, aguantó con colchón; si empezó muy justo de capital, probablemente cerró."
+  },
+  "texto": [
+   "Carlos tiene 29 años y vive de alquiler en Paiporta, a diez minutos de Valencia. Ha pasado seis años como encargado en una cadena de ropa y conoce proveedores, temporadas y márgenes. Sabe cuánta ropa vende un buen local y cuánto stock hay que tener, y está harto de que otro se lleve los beneficios.",
+   "Tiene 18.000 € ahorrados. Sus padres, propietarios de su casa sin hipoteca, le avalarían un préstamo de hasta 20.000 €. Necesita sacar unos 1.100 € al mes para vivir.",
+   "Quiere abrir una tienda de ropa casual y complementos en un local de la zona comercial de Paiporta. Sabe que le irán mejor las campañas de Navidad y que en verano el consumo cae. Le preocupa responder con su patrimonio personal si algo sale mal.",
+   "Decide cómo constituir la empresa, cuánto capital poner, si pedir préstamo y qué productos vender. Revisa bien cuándo montas el negocio: no todos los años son iguales para el comercio de la zona."
+  ],
+  "dificultad": 2,
+  "ubicacion": {
+   "ciudad": "Paiporta",
+   "provincia": "Valencia",
+   "ccaa": "Comunitat Valenciana",
+   "poblacion": 26000,
+   "tier": 0.95,
+   "alquiler_idx": 0.85,
+   "eventos": [
+    "dana"
+   ],
+   "descripcion": "Municipio de l'Horta Sud, junto a Valencia capital, muy poblado y comercial."
+  }
+ },
+ {
+  "id": 3,
+  "titulo": "La huerta de Teruel",
+  "nombre": "Marta Gil",
+  "edad": 35,
+  "estado_civil": "separada",
+  "hijos": 1,
+  "ahorros": 3500,
+  "max_prestamo": 8000,
+  "retiro": 1100,
+  "vivienda": "Casa heredada en un pueblo cercano, sin hipoteca",
+  "estudios": "Ciclo formativo de Jardinería y Floristería",
+  "experiencia": "Cultiva una huerta familiar de 6.000 m² desde pequeña",
+  "patrimonio": "Casa heredada y huerta",
+  "afinidad": {
+   "agro": 1.2,
+   "alimentacion": 0.85,
+   "turismo": 0.55,
+   "artesania": 0.45,
+   "hogar": 0.35,
+   "moda": 0.2
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "agro",
+   "modalidad": "domicilio",
+   "nota": "Producto propio, poco capital y mercado local pequeño: autónoma con venta directa y reparto a domicilio u online. Una SL le cargaría con gestoría y gastos que no necesita."
+  },
+  "texto": [
+   "Marta tiene 35 años, está separada y vive con su hijo de 8 años en una casa heredada en un pueblo a 20 km de Teruel. Su exmarido paga una pensión de 300 € que no cubre sus gastos. Heredó también una huerta de 6.000 m² con agua propia y cultivó verduras ecológicas desde niña; vecinos y familiares le compran cestas.",
+   "Tiene 3.500 € ahorrados. Un banco le concedería, como mucho, 8.000 € con la casa como garantía. Necesita unos 1.100 € al mes para mantener a su hijo y la casa.",
+   "Su idea es vender cestas ecológicas, huevos de sus gallinas, miel y mermeladas. Sabe que Teruel tiene poca población y que la gente se queja del precio, pero cada vez más gente quiere producto de cercanía. No tiene experiencia en tiendas ni en gestión.",
+   "¿Qué forma jurídica y qué productos encajan con su perfil? ¿Sería sensato abrir local o vender de otra forma?"
+  ],
+  "dificultad": 1,
+  "ubicacion": {
+   "ciudad": "Teruel",
+   "provincia": "Teruel",
+   "ccaa": "Aragón",
+   "poblacion": 36000,
+   "tier": 0.6,
+   "alquiler_idx": 0.5,
+   "eventos": [],
+   "descripcion": "Capital pequeña de la España vaciada; poca población y mucha distancia a otras ciudades."
+  }
+ },
+ {
+  "id": 4,
+  "titulo": "El programador freelance",
+  "nombre": "Álvaro Torres",
+  "edad": 26,
+  "estado_civil": "soltero",
+  "hijos": 0,
+  "ahorros": 4000,
+  "max_prestamo": 0,
+  "retiro": 1400,
+  "vivienda": "Vive en un piso compartido (480 €/mes)",
+  "estudios": "Grado Superior en Desarrollo de Aplicaciones Web",
+  "experiencia": "3 años de programador en una consultora; hace webs por encargo en su tiempo libre",
+  "patrimonio": "",
+  "afinidad": {
+   "software": 1.2,
+   "consultoria": 0.75,
+   "formacion": 0.6,
+   "tecnologia": 0.65,
+   "artesania": 0.2,
+   "hosteleria": 0.15
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "software",
+   "modalidad": "online",
+   "nota": "Servicios online sin stock ni local. Con poco capital y clientes pymes, autónomo es lo más simple; la SL solo compensaría si facturara mucho."
+  },
+  "texto": [
+   "Álvaro tiene 26 años y vive en Madrid en un piso compartido. Terminó un Grado Superior de desarrollo web y lleva tres años trabajando por cuenta ajena en una consultora. Sus ratos libres los dedica a hacer páginas web para pequeños comercios que le llegan por recomendación.",
+   "Tiene 4.000 € ahorrados y ningún patrimonio. Con su sueldo actual no puede ahorrar más y quiere dar el salto para tener más ingresos y libertad. Necesita sacar unos 1.400 € al mes.",
+   "Pretende ofrecer webs, tiendas online y mantenimiento a pymes, y, si tiene tiempo, cursos de programación. En Madrid hay muchísima competencia, pero también muchos clientes. No tiene experiencia en comercio físico ni en hostelería y no quiere alquilar un local para trabajar delante de un ordenador.",
+   "Elige la fórmula jurídica adecuada, la modalidad de trabajo y los servicios que venderías."
+  ],
+  "dificultad": 1,
+  "ubicacion": {
+   "ciudad": "Madrid",
+   "provincia": "Madrid",
+   "ccaa": "Comunidad de Madrid",
+   "poblacion": 3300000,
+   "tier": 1.5,
+   "alquiler_idx": 1.7,
+   "eventos": [],
+   "descripcion": "Gran capital: mucha demanda, mucha competencia y alquileres altísimos."
+  }
+ },
+ {
+  "id": 5,
+  "titulo": "El bar de Triana",
+  "nombre": "Pablo Fernández",
+  "edad": 31,
+  "estado_civil": "casado",
+  "hijos": 1,
+  "ahorros": 25000,
+  "max_prestamo": 40000,
+  "retiro": 1500,
+  "vivienda": "Piso en propiedad con hipoteca (620 €/mes)",
+  "estudios": "Grado Medio en Servicios de Restauración",
+  "experiencia": "8 años de camarero y 2 de encargado de bar",
+  "patrimonio": "Piso con hipoteca",
+  "afinidad": {
+   "hosteleria": 1.15,
+   "eventos": 0.6,
+   "alimentacion": 0.6,
+   "turismo": 0.45,
+   "moda": 0.15,
+   "software": 0.15
+  },
+  "ideal": {
+   "forma": "sl",
+   "sector": "hosteleria",
+   "modalidad": "local",
+   "nota": "Hostelería exige mucha inversión inicial, personal y liquidez. Con 25.000 € de ahorros y préstamo hasta 40.000 € es viable; una SL protege el piso familiar. Con poco capital el negocio no aguanta."
+  },
+  "texto": [
+   "Pablo tiene 31 años, está casado y tiene una hija de 2 años. Su mujer trabaja de funcionaria en el ayuntamiento. Es camarero desde los 22 y los dos últimos años ha sido encargado de un bar muy concurrido en Triana, en Sevilla. Conoce a los proveedores, los horarios y el trato con el cliente.",
+   "Tiene 25.000 € ahorrados y un piso en propiedad con hipoteca. El banco le ofrecería hasta 40.000 € si presenta un plan sólido. Necesita unos 1.500 € al mes para su familia (su mujer cubre el resto de gastos).",
+   "Quiere abrir un bar de tapas con menú del día y desayunos en un local de la zona. Sabe que necesita cocina, barra, mobiliario y equipo, y que con una persona sola no saldrá adelante. Teme que, si el bar falla, pierda también el piso.",
+   "Decide tipo de sociedad, cuánto capital aportar, cuánto pedir al banco y cuántas personas contratar. Vigila la liquidez: en hostelería un mes malo se paga caro."
+  ],
+  "dificultad": 3,
+  "ubicacion": {
+   "ciudad": "Sevilla",
+   "provincia": "Sevilla",
+   "ccaa": "Andalucía",
+   "poblacion": 685000,
+   "tier": 1.1,
+   "alquiler_idx": 1.0,
+   "eventos": [],
+   "descripcion": "Gran ciudad turística y de servicios con vida de calle todo el año."
+  }
+ },
+ {
+  "id": 6,
+  "titulo": "La esteticista de Gandía",
+  "nombre": "Nuria Campos",
+  "edad": 24,
+  "estado_civil": "soltera",
+  "hijos": 0,
+  "ahorros": 9000,
+  "max_prestamo": 15000,
+  "retiro": 900,
+  "vivienda": "Vive con sus padres",
+  "estudios": "Grado Medio en Estética y Belleza + curso de uñas profesional",
+  "experiencia": "4 años en un salón de belleza de la zona",
+  "patrimonio": "",
+  "afinidad": {
+   "belleza": 1.2,
+   "salud": 0.5,
+   "moda": 0.4,
+   "mascotas": 0.3,
+   "tecnologia": 0.2,
+   "reformas": 0.1
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "belleza",
+   "modalidad": "local",
+   "nota": "Tiene clientela y titulación, aunque poco capital. Autónoma con un local pequeño es la opción más equilibrada; el préstamo debe ser prudente."
+  },
+  "texto": [
+   "Nuria tiene 24 años y vive con sus padres en Gandía. Es esteticista titulada y lleva cuatro años en un salón donde atiende uñas, depilación y faciales. Muchas clientas le dicen que la seguirían si abriera por su cuenta. En verano la ciudad se llena de turistas y la demanda se dispara.",
+   "Tiene 9.000 € ahorrados. Sus padres avalarían un préstamo de hasta 15.000 €. Necesita sacar unos 900 € al mes (vive en casa de sus padres).",
+   "Quiere abrir un pequeño centro de estética con servicios de uñas, depilación y tratamientos faciales, y vender algún producto. No sabe de contabilidad, pero es muy buena con las redes sociales.",
+   "Piensa qué forma jurídica, qué dinero poner y cuántos servicios ofrecer. ¿Debería contratar a alguien desde el primer día?"
+  ],
+  "dificultad": 2,
+  "ubicacion": {
+   "ciudad": "Gandía",
+   "provincia": "Valencia",
+   "ccaa": "Comunitat Valenciana",
+   "poblacion": 75000,
+   "tier": 0.9,
+   "alquiler_idx": 0.8,
+   "eventos": [],
+   "descripcion": "Ciudad costera con turismo de verano y buen comercio local."
+  }
+ },
+ {
+  "id": 7,
+  "titulo": "El electricista que quiere crecer",
+  "nombre": "Iván Romero",
+  "edad": 38,
+  "estado_civil": "casado",
+  "hijos": 2,
+  "ahorros": 15000,
+  "max_prestamo": 30000,
+  "retiro": 1600,
+  "vivienda": "Casa en propiedad con hipoteca (700 €/mes)",
+  "estudios": "Grado Medio en Instalaciones Eléctricas, carnet profesional",
+  "experiencia": "12 años de oficial y 4 de autónomo informal",
+  "patrimonio": "Casa con hipoteca",
+  "afinidad": {
+   "reformas": 1.15,
+   "limpieza": 0.5,
+   "hogar": 0.55,
+   "transporte": 0.55,
+   "tecnologia": 0.4,
+   "moda": 0.1
+  },
+  "ideal": {
+   "forma": "sl",
+   "sector": "reformas",
+   "modalidad": "domicilio",
+   "nota": "Clientes empresa (constructoras, comunidades) y obras de importe alto: una SL transmite solvencia y limita el riesgo. Cuidado con la estacionalidad y con pagar a muchos proveedores."
+  },
+  "texto": [
+   "Iván tiene 38 años, está casado y tiene dos hijos. Lleva doce años de oficial electricista y los últimos cuatro ha hecho chapuzas por su cuenta los fines de semana. Quiere montar una empresa de reformas integrales (baños, cocinas, suelos, electricidad y fontanería) en Zaragoza, donde se construye mucho.",
+   "Tiene 15.000 € ahorrados y una casa con hipoteca. Con su nómina de ahora el banco le prestaría hasta 30.000 €. Necesita unos 1.600 € al mes para mantener a su familia.",
+   "Sabe que las obras grandes dan mucho margen pero que los clientes tardan en pagar y los materiales se encarecen. Tiene un par de constructoras que le subcontratarían. Prefiere trabajar a domicilio, sin tienda abierta al público, y quiere contratar a un oficial.",
+   "Escoge forma jurídica, financiación y servicios. Ten en cuenta la estacionalidad del sector y el riesgo de responder con la casa."
+  ],
+  "dificultad": 2,
+  "ubicacion": {
+   "ciudad": "Zaragoza",
+   "provincia": "Zaragoza",
+   "ccaa": "Aragón",
+   "poblacion": 680000,
+   "tier": 1.0,
+   "alquiler_idx": 0.95,
+   "eventos": [],
+   "descripcion": "Gran ciudad industrial y logística con mucha construcción."
+  }
+ },
+ {
+  "id": 8,
+  "titulo": "La directiva despedida",
+  "nombre": "Elena Vidal",
+  "edad": 41,
+  "estado_civil": "divorciada",
+  "hijos": 1,
+  "ahorros": 40000,
+  "max_prestamo": 0,
+  "retiro": 2000,
+  "vivienda": "Piso en alquiler (1.100 €/mes)",
+  "estudios": "Licenciada en Publicidad, máster en Marketing Digital",
+  "experiencia": "15 años en marketing; directora de cuentas hasta su despido (ERE)",
+  "patrimonio": "Indemnización por despido",
+  "afinidad": {
+   "consultoria": 1.2,
+   "software": 0.7,
+   "formacion": 0.65,
+   "eventos": 0.5,
+   "moda": 0.35,
+   "agro": 0.1
+  },
+  "ideal": {
+   "forma": "sl",
+   "sector": "consultoria",
+   "modalidad": "online",
+   "nota": "Mucho capital propio, clientes empresa y perfil de alto nivel. SL para trabajar con empresas grandes, repartir responsabilidades y aprovechar el tipo reducido del IS en los primeros años."
+  },
+  "texto": [
+   "Elena tiene 41 años, es divorciada y tiene una hija adolescente. Tras quince años en agencias de publicidad la despidieron en un ERE y cobró una indemnización. Tiene un máster en marketing digital y una agenda de contactos con directores de marketing de Barcelona.",
+   "Dispone de 40.000 € para invertir y no necesita pedir préstamos. Su sueldo ha desaparecido: necesita unos 2.000 € al mes. No tiene vivienda en propiedad.",
+   "Quiere montar una consultora de marketing digital para pymes: gestión de redes, campañas, estrategia. Sus antiguos clientes ya le han hecho encargos sueltos. Duda entre empezar sola o crear algo más ambicioso con empleados.",
+   "Elige forma jurídica, capital y modalidad. ¿Compensa alquilar oficina en Barcelona?"
+  ],
+  "dificultad": 2,
+  "ubicacion": {
+   "ciudad": "Barcelona",
+   "provincia": "Barcelona",
+   "ccaa": "Cataluña",
+   "poblacion": 1620000,
+   "tier": 1.45,
+   "alquiler_idx": 1.8,
+   "eventos": [],
+   "descripcion": "Capital catalana: demanda enorme, competencia fuerte y costes elevados."
+  }
+ },
+ {
+  "id": 9,
+  "titulo": "El reparador de móviles",
+  "nombre": "Hugo Sánchez",
+  "edad": 21,
+  "estado_civil": "soltero",
+  "hijos": 0,
+  "ahorros": 3500,
+  "max_prestamo": 0,
+  "retiro": 500,
+  "vivienda": "Vive con sus padres",
+  "estudios": "Grado Medio en Sistemas Microinformáticos y Redes",
+  "experiencia": "2 años arreglando móviles de amigos y en prácticas en un taller",
+  "patrimonio": "",
+  "afinidad": {
+   "tecnologia": 1.15,
+   "software": 0.65,
+   "formacion": 0.5,
+   "consultoria": 0.4,
+   "moda": 0.2,
+   "belleza": 0.1
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "tecnologia",
+   "modalidad": "local",
+   "nota": "Poco capital y servicio técnico con poco stock: autónomo con un local pequeño. Aprovechar tarifa plana el primer año es clave."
+  },
+  "texto": [
+   "Hugo tiene 21 años y vive con sus padres en Albacete. Acabó el Grado Medio de Sistemas Microinformáticos y en las prácticas aprendió a reparar pantallas, baterías y placas de móviles. Desde entonces arregla móviles a amigos y conocidos.",
+   "Tiene 3.500 € ahorrados y ninguna propiedad. Necesita muy poco para vivir (500 € al mes) porque sus padres le cubren la casa y la comida.",
+   "Quiere abrir un pequeño taller con tienda de accesorios y reparaciones. Sabe que Albacete no es una ciudad enorme pero hay muchos estudiantes y poca oferta de reparaciones rápidas. No sabe de contabilidad ni de trato a empresas.",
+   "Define cómo montarlo, qué vender y cuánto invertir. Piensa si merece la pena alquilar local."
+  ],
+  "dificultad": 1,
+  "ubicacion": {
+   "ciudad": "Albacete",
+   "provincia": "Albacete",
+   "ccaa": "Castilla-La Mancha",
+   "poblacion": 175000,
+   "tier": 0.85,
+   "alquiler_idx": 0.7,
+   "eventos": [],
+   "descripcion": "Ciudad media del interior con comercio tradicional."
+  }
+ },
+ {
+  "id": 10,
+  "titulo": "La fotógrafa de bodas",
+  "nombre": "Claudia Ortega",
+  "edad": 33,
+  "estado_civil": "casada",
+  "hijos": 0,
+  "ahorros": 7000,
+  "max_prestamo": 0,
+  "retiro": 1200,
+  "vivienda": "Vive de alquiler con su pareja (780 €/mes)",
+  "estudios": "Grado Superior en Fotografía",
+  "experiencia": "7 años como fotógrafa de eventos para otra empresa",
+  "patrimonio": "",
+  "afinidad": {
+   "eventos": 1.2,
+   "turismo": 0.55,
+   "artesania": 0.5,
+   "software": 0.35,
+   "moda": 0.35,
+   "hosteleria": 0.25
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "eventos",
+   "modalidad": "domicilio",
+   "nota": "Servicio muy estacional (bodas de primavera a otoño) con pocos costes fijos: autónoma sin local, cuidando la tesorería de invierno."
+  },
+  "texto": [
+   "Claudia tiene 33 años y vive en Málaga con su pareja. Lleva siete años como fotógrafa de bodas y eventos en una empresa que se queda con la mayor parte del dinero. Sabe editar, conoce a los fotógrafos y videógrafos de la zona y ya tiene tres reservas para el año que viene que le han hecho a título personal.",
+   "Tiene 7.000 € ahorrados para comprar equipo y material. No dispone de patrimonio y prefiere no pedir préstamos. Necesita unos 1.200 € al mes.",
+   "Quiere trabajar por su cuenta: bodas, sesiones familiares y fotografía de producto para empresas. Sabe que las bodas se concentran de abril a octubre y que en invierno hay poco trabajo.",
+   "Decide forma jurídica y modalidad, y piensa cómo afrontar los meses flojos."
+  ],
+  "dificultad": 2,
+  "ubicacion": {
+   "ciudad": "Málaga",
+   "provincia": "Málaga",
+   "ccaa": "Andalucía",
+   "poblacion": 580000,
+   "tier": 1.2,
+   "alquiler_idx": 1.3,
+   "eventos": [],
+   "descripcion": "Capital de la Costa del Sol: turismo, bodas, servicios y alquileres al alza."
+  }
+ },
+ {
+  "id": 11,
+  "titulo": "El guía de los Picos de Europa",
+  "nombre": "Andrés Molina",
+  "edad": 27,
+  "estado_civil": "soltero",
+  "hijos": 0,
+  "ahorros": 5000,
+  "max_prestamo": 12000,
+  "retiro": 1000,
+  "vivienda": "Casa familiar en el pueblo",
+  "estudios": "Técnico deportivo en media montaña; curso de primeros auxilios",
+  "experiencia": "5 temporadas como guía en una empresa de turismo activo",
+  "patrimonio": "",
+  "afinidad": {
+   "turismo": 1.2,
+   "deporte": 0.7,
+   "agro": 0.55,
+   "hosteleria": 0.5,
+   "formacion": 0.3,
+   "software": 0.2
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "turismo",
+   "modalidad": "local",
+   "nota": "Servicios de aventura con poco stock y gran estacionalidad. Autónomo con pequeño local; el préstamo debe ser moderado."
+  },
+  "texto": [
+   "Andrés tiene 27 años y vive en la casa familiar en Cangas de Onís. Es técnico deportivo y lleva cinco temporadas guiando excursiones y descensos del Sella para una empresa de turismo activo. Sabe organizar grupos, conoce las rutas y los seguros.",
+   "Tiene 5.000 € ahorrados. Su familia, propietaria de la casa, avalaría un préstamo de hasta 12.000 €. Necesita unos 1.000 € al mes.",
+   "Quiere crear su propia empresa de rutas, alquiler de material (kayaks, bicicletas) y experiencias. Julio y agosto son meses muy fuertes, pero en invierno casi no hay turistas. Cangas de Onís es un pueblo pequeño y depende por completo de los visitantes.",
+   "Elige modalidad, capital y servicios. Calcula bien lo que pasará en los meses de pocos turistas."
+  ],
+  "dificultad": 2,
+  "ubicacion": {
+   "ciudad": "Cangas de Onís",
+   "provincia": "Asturias",
+   "ccaa": "Principado de Asturias",
+   "poblacion": 6300,
+   "tier": 0.55,
+   "alquiler_idx": 0.5,
+   "eventos": [],
+   "descripcion": "Pueblo asturiano a las puertas de los Picos de Europa, con turismo muy marcado."
+  }
+ },
+ {
+  "id": 12,
+  "titulo": "La entrenadora personal",
+  "nombre": "Irene Navarro",
+  "edad": 30,
+  "estado_civil": "soltera",
+  "hijos": 0,
+  "ahorros": 8000,
+  "max_prestamo": 10000,
+  "retiro": 1100,
+  "vivienda": "Vive de alquiler (560 €/mes)",
+  "estudios": "Grado Superior en Acondicionamiento Físico; curso de nutrición deportiva",
+  "experiencia": "6 años como monitora en gimnasios",
+  "patrimonio": "",
+  "afinidad": {
+   "deporte": 1.2,
+   "salud": 0.7,
+   "formacion": 0.5,
+   "belleza": 0.4,
+   "hosteleria": 0.2,
+   "software": 0.2
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "deporte",
+   "modalidad": "domicilio",
+   "nota": "No necesita abrir un gimnasio (inversión enorme): entrenamiento personal a domicilio u online. Un gimnasio propio con 8.000 € de ahorros es una trampa."
+  },
+  "texto": [
+   "Irene tiene 30 años y vive en Pamplona. Ha sido monitora en gimnasios durante seis años y tiene un Grado Superior en Acondicionamiento Físico. Entrena a una docena de personas por su cuenta fuera del gimnasio y quiere dar el salto.",
+   "Tiene 8.000 € ahorrados y podría conseguir un préstamo pequeño de hasta 10.000 €. Necesita unos 1.100 € al mes.",
+   "Quiere ofrecer entrenamiento personal, clases dirigidas y planes de nutrición online. Le tienta abrir un gimnasio propio, aunque sabe que cuesta mucho el local y las máquinas. En enero hay un pico de clientes y en verano la actividad baja.",
+   "Elige forma jurídica, modalidad y servicios con cabeza; el riesgo de endeudarse de más está presente."
+  ],
+  "dificultad": 2,
+  "ubicacion": {
+   "ciudad": "Pamplona",
+   "provincia": "Navarra",
+   "ccaa": "Comunidad Foral de Navarra",
+   "poblacion": 205000,
+   "tier": 1.0,
+   "alquiler_idx": 1.0,
+   "eventos": [],
+   "descripcion": "Ciudad con renta alta, mucha vida deportiva y universitaria."
+  }
+ },
+ {
+  "id": 13,
+  "titulo": "El camionero que quiere ser su jefe",
+  "nombre": "Javier Prieto",
+  "edad": 45,
+  "estado_civil": "casado",
+  "hijos": 2,
+  "ahorros": 12000,
+  "max_prestamo": 25000,
+  "retiro": 1600,
+  "vivienda": "Casa en propiedad con hipoteca pequeña (350 €/mes)",
+  "estudios": "Carnets C+E, ADR y CAP",
+  "experiencia": "20 años de camionero asalariado",
+  "patrimonio": "Casa con hipoteca pequeña",
+  "afinidad": {
+   "transporte": 1.2,
+   "reformas": 0.45,
+   "agro": 0.45,
+   "limpieza": 0.3,
+   "hogar": 0.3,
+   "software": 0.1
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "transporte",
+   "modalidad": "domicilio",
+   "nota": "Un camión y un conductor: es el caso típico de transportista autónomo. El gasoil es la partida clave y los clientes son empresas, así que conviene vigilar cobros y combustible."
+  },
+  "texto": [
+   "Javier tiene 45 años y vive en Soria con su mujer y dos hijos. Lleva veinte años de camionero para empresas ajenas y está cansado de viajar sin ser su propio jefe. Tiene los carnets C+E, ADR y CAP y un pequeño contacto con fábricas y almacenes de la zona.",
+   "Dispone de 12.000 € de ahorros y de una casa con una hipoteca pequeña. Un banco le daría hasta 25.000 € para comprar un camión de segunda mano. Necesita unos 1.600 € al mes para vivir.",
+   "Quiere hacer transporte de mercancías y algo de reparto y mudanzas. En Soria hay poca población y los viajes largos son clave. El gasoil sube y baja y los clientes empresariales tardan en pagar.",
+   "Define forma jurídica, inversión y servicios. Calcula la inversión necesaria y la liquidez."
+  ],
+  "dificultad": 3,
+  "ubicacion": {
+   "ciudad": "Soria",
+   "provincia": "Soria",
+   "ccaa": "Castilla y León",
+   "poblacion": 39000,
+   "tier": 0.55,
+   "alquiler_idx": 0.5,
+   "eventos": [],
+   "descripcion": "La capital menos poblada de España: mercado muy pequeño, costes bajos."
+  }
+ },
+ {
+  "id": 14,
+  "titulo": "La joyera de Instagram",
+  "nombre": "Beatriz León",
+  "edad": 28,
+  "estado_civil": "soltera",
+  "hijos": 0,
+  "ahorros": 4000,
+  "max_prestamo": 0,
+  "retiro": 800,
+  "vivienda": "Vive en un piso compartido (300 €/mes)",
+  "estudios": "Grado Superior en Diseño de Joyería",
+  "experiencia": "3 años vendiendo joyas por Instagram sin estar de alta",
+  "patrimonio": "",
+  "afinidad": {
+   "artesania": 1.2,
+   "moda": 0.6,
+   "hogar": 0.5,
+   "turismo": 0.45,
+   "software": 0.2,
+   "transporte": 0.1
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "artesania",
+   "modalidad": "online",
+   "nota": "Producto artesanal, bajo capital y 12.000 seguidores en redes: autónoma online, con la tarifa plana y sin alquiler de local."
+  },
+  "texto": [
+   "Beatriz tiene 28 años y vive en un piso compartido en Granada. Estudió joyería y lleva tres años vendiendo sus piezas por Instagram, donde tiene 12.000 seguidores. Hasta ahora no estaba dada de alta y quiere regularizar su actividad.",
+   "Tiene 4.000 € ahorrados y ningún patrimonio. No quiere pedir un préstamo. Necesita unos 800 € al mes porque su piso es barato.",
+   "Quiere vender joyas, cerámica y productos personalizados y dar algún taller. En Granada hay muchos turistas pero también competencia en la Alhambra. En Navidad vende el doble que el resto del año.",
+   "Elige forma jurídica, modalidad y productos. ¿Alquilar un local en el centro tiene sentido?"
+  ],
+  "dificultad": 1,
+  "ubicacion": {
+   "ciudad": "Granada",
+   "provincia": "Granada",
+   "ccaa": "Andalucía",
+   "poblacion": 230000,
+   "tier": 1.0,
+   "alquiler_idx": 0.9,
+   "eventos": [],
+   "descripcion": "Ciudad universitaria y turística con mucho comercio de pequeño tamaño."
+  }
+ },
+ {
+  "id": 15,
+  "titulo": "La capitalización del paro",
+  "nombre": "Marcos Blanco",
+  "edad": 52,
+  "estado_civil": "casado",
+  "hijos": 0,
+  "ahorros": 14000,
+  "max_prestamo": 0,
+  "retiro": 900,
+  "vivienda": "Vive en su casa con su mujer (sin hipoteca)",
+  "estudios": "Graduado escolar, carné de peluquero canino por un curso online",
+  "experiencia": "25 años de obrero en una fábrica de madera hasta que cerró",
+  "patrimonio": "Casa sin hipoteca",
+  "afinidad": {
+   "mascotas": 1.0,
+   "belleza": 0.55,
+   "agro": 0.4,
+   "transporte": 0.35,
+   "reformas": 0.35,
+   "software": 0.1
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "mascotas",
+   "modalidad": "local",
+   "nota": "Pago único de la prestación por desempleo (capitalización) para ser autónomo: encaja con un negocio pequeño. Ourense tiene población envejecida, y las mascotas son buen refugio, pero hay que medir bien la inversión."
+  },
+  "texto": [
+   "Marcos tiene 52 años, está casado y sus hijos ya son independientes. Trabajó 25 años en una fábrica de madera hasta que cerró. Va a capitalizar el paro: cobrará de golpe 14.000 € para ser autónomo. Su mujer trabaja y la casa en la que viven ya está pagada.",
+   "Adora a los animales y se sacó un curso de peluquería canina. Necesita unos 900 € al mes y no quiere pedir préstamos a su edad.",
+   "Quiere montar una peluquería canina con tienda de accesorios en Ourense. La ciudad es pequeña y envejecida, pero hay muchos perros y no hay mucha competencia. Está dudando si montar una tienda de pienso.",
+   "Decide forma jurídica, inversión y qué vender."
+  ],
+  "dificultad": 2,
+  "ubicacion": {
+   "ciudad": "Ourense",
+   "provincia": "Ourense",
+   "ccaa": "Galicia",
+   "poblacion": 105000,
+   "tier": 0.7,
+   "alquiler_idx": 0.55,
+   "eventos": [],
+   "descripcion": "Ciudad del interior gallego, población envejecida y comercio local."
+  }
+ },
+ {
+  "id": 16,
+  "titulo": "La psicóloga recién colegiada",
+  "nombre": "Silvia Marín",
+  "edad": 25,
+  "estado_civil": "soltera",
+  "hijos": 0,
+  "ahorros": 3500,
+  "max_prestamo": 6000,
+  "retiro": 1000,
+  "vivienda": "Vive con su pareja en un piso alquilado (700 €/mes)",
+  "estudios": "Grado en Psicología, colegiada; máster sanitario en curso",
+  "experiencia": "Prácticas en una clínica y voluntariado con jóvenes",
+  "patrimonio": "",
+  "afinidad": {
+   "salud": 1.2,
+   "formacion": 0.6,
+   "consultoria": 0.5,
+   "deporte": 0.4,
+   "moda": 0.15,
+   "hosteleria": 0.1
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "salud",
+   "modalidad": "local",
+   "nota": "Servicios sanitarios exentos de IVA (psicología) y pocos costes: autónoma, con consulta compartida u online. Ojo con el IVA: no se repercute pero tampoco se deduce."
+  },
+  "texto": [
+   "Silvia tiene 25 años y vive con su pareja en Bilbao. Acaba de colegiarse como psicóloga y está haciendo un máster sanitario. Ha hecho prácticas en una clínica y da charlas a jóvenes por voluntariado. Muchos conocidos le piden consulta.",
+   "Tiene 3.500 € ahorrados y puede pedir un préstamo pequeño de hasta 6.000 €. Necesita unos 1.000 € al mes.",
+   "Quiere abrir consulta propia de psicología y quizá algún taller. Los servicios de psicología están exentos de IVA, pero esto tiene consecuencias contables. Bilbao tiene alquileres altos y muchos psicólogos.",
+   "Elige forma jurídica, modalidad y servicios. Piensa en qué pasa con el IVA de tus gastos."
+  ],
+  "dificultad": 2,
+  "ubicacion": {
+   "ciudad": "Bilbao",
+   "provincia": "Bizkaia",
+   "ccaa": "País Vasco",
+   "poblacion": 345000,
+   "tier": 1.15,
+   "alquiler_idx": 1.2,
+   "eventos": [],
+   "descripcion": "Ciudad con renta alta, cultura de comercio de proximidad y alquileres elevados."
+  }
+ },
+ {
+  "id": 17,
+  "titulo": "El cocinero ambulante",
+  "nombre": "Raúl Cano",
+  "edad": 34,
+  "estado_civil": "soltero",
+  "hijos": 0,
+  "ahorros": 16000,
+  "max_prestamo": 20000,
+  "retiro": 1500,
+  "vivienda": "Piso de alquiler (900 €/mes)",
+  "estudios": "Grado Superior en Dirección de Cocina",
+  "experiencia": "10 años de cocinero en hoteles de la isla",
+  "patrimonio": "",
+  "afinidad": {
+   "eventos": 1.05,
+   "hosteleria": 0.9,
+   "alimentacion": 0.65,
+   "turismo": 0.55,
+   "software": 0.2,
+   "moda": 0.15
+  },
+  "ideal": {
+   "forma": "sl",
+   "sector": "eventos",
+   "modalidad": "domicilio",
+   "nota": "Un catering sin local propio evita el alquiler de Palma y aprovecha la temporada alta. Con capital alto y clientes empresa y bodas, la SL es lo recomendable."
+  },
+  "texto": [
+   "Raúl tiene 34 años y vive en Palma de alquiler. Lleva diez años de cocinero en hoteles de la isla, con temporadas muy duras de turistas. Sabe cocinar para cientos de personas y gestionar compras. Está cansado de la estacionalidad y de la precariedad.",
+   "Tiene 16.000 € ahorrados y podría pedir hasta 20.000 € al banco por su nómina. Necesita unos 1.500 € al mes.",
+   "Piensa montar un catering para bodas y empresas, con posibilidad de abrir un pequeño restaurante más adelante. El local en Palma es muy caro y en invierno hay poca demanda. No tiene experiencia en gestión, pero sí contactos con organizadores de bodas.",
+   "Decide forma jurídica, financiación y modalidad. ¿Compensa un local o conviene trabajar a domicilio?"
+  ],
+  "dificultad": 3,
+  "ubicacion": {
+   "ciudad": "Palma",
+   "provincia": "Illes Balears",
+   "ccaa": "Illes Balears",
+   "poblacion": 420000,
+   "tier": 1.2,
+   "alquiler_idx": 1.4,
+   "eventos": [],
+   "descripcion": "Isla turística: temporada alta muy marcada y vivienda/local muy caros."
+  }
+ },
+ {
+  "id": 18,
+  "titulo": "La diseñadora de camisetas",
+  "nombre": "Aitana Pérez",
+  "edad": 23,
+  "estado_civil": "soltera",
+  "hijos": 0,
+  "ahorros": 2500,
+  "max_prestamo": 0,
+  "retiro": 700,
+  "vivienda": "Vive con su familia",
+  "estudios": "Grado en Diseño Gráfico",
+  "experiencia": "Vende diseños propios en dos plataformas de impresión bajo demanda",
+  "patrimonio": "",
+  "afinidad": {
+   "artesania": 0.85,
+   "moda": 0.7,
+   "software": 0.5,
+   "formacion": 0.3,
+   "hogar": 0.35,
+   "hosteleria": 0.1
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "artesania",
+   "modalidad": "online",
+   "nota": "Mínima inversión y venta online: autónoma con productos personalizados. Poca experiencia en negocio pero coste de arranque muy bajo."
+  },
+  "texto": [
+   "Aitana tiene 23 años y vive con su familia en Santander. Acaba el Grado de Diseño Gráfico y vende camisetas y tazas con sus diseños en plataformas de impresión bajo demanda. Gana 300-400 € al mes y quiere hacerlo de manera profesional.",
+   "Tiene 2.500 € ahorrados y ninguna otra propiedad. Necesita unos 700 € al mes. No quiere deudas.",
+   "Piensa vender productos personalizados desde su web y por mercadillos. Santander tiene turismo en verano, pero tiene un mercado pequeño. No sabe nada de impuestos y desconoce si debe darse de alta.",
+   "Elige forma jurídica, modalidad y productos. ¿Es buena idea abrir un local?"
+  ],
+  "dificultad": 1,
+  "ubicacion": {
+   "ciudad": "Santander",
+   "provincia": "Cantabria",
+   "ccaa": "Cantabria",
+   "poblacion": 172000,
+   "tier": 1.0,
+   "alquiler_idx": 1.0,
+   "eventos": [],
+   "descripcion": "Capital cántabra con estudiantes, turismo de verano y comercio estable."
+  }
+ },
+ {
+  "id": 19,
+  "titulo": "La finca de aceite",
+  "nombre": "Fernando Gallego",
+  "edad": 58,
+  "estado_civil": "casado",
+  "hijos": 3,
+  "ahorros": 60000,
+  "max_prestamo": 0,
+  "retiro": 800,
+  "vivienda": "Casa en propiedad sin hipoteca; finca de 12 hectáreas heredada",
+  "estudios": "Ingeniero Agrónomo",
+  "experiencia": "30 años en una cooperativa agraria; prejubilado con 1.800 €/mes",
+  "patrimonio": "Casa sin hipoteca y finca de 12 ha",
+  "afinidad": {
+   "agro": 1.15,
+   "alimentacion": 0.9,
+   "turismo": 0.6,
+   "hogar": 0.25,
+   "software": 0.15,
+   "moda": 0.1
+  },
+  "ideal": {
+   "forma": "sl",
+   "sector": "agro",
+   "modalidad": "domicilio",
+   "nota": "Mucho capital y patrimonio, además de ingresos de la prejubilación: SL para separar el patrimonio y repartir el beneficio con la familia."
+  },
+  "texto": [
+   "Fernando tiene 58 años y está casado, con tres hijos independientes. Se ha prejubilado como ingeniero agrónomo de una cooperativa con 1.800 € al mes. Ha heredado una finca de 12 hectáreas con olivos y encinas cerca de Cáceres y quiere poner en marcha un negocio de aceite y productos ecológicos.",
+   "Dispone de 60.000 € de ahorros y una casa sin hipoteca. No necesita préstamos y apenas necesita sacar dinero de la empresa (800 € al mes).",
+   "Quiere producir y vender aceite ecológico, miel, mermeladas y hacer visitas a la finca. Sabe de producción, pero no de ventas y tiene miedo a los costes de maquinaria. Cáceres es una ciudad pequeña, pero el turismo gastronómico crece.",
+   "Decide la forma jurídica, el capital y los productos. ¿Conviene meter a los hijos como socios?"
+  ],
+  "dificultad": 2,
+  "ubicacion": {
+   "ciudad": "Cáceres",
+   "provincia": "Cáceres",
+   "ccaa": "Extremadura",
+   "poblacion": 96000,
+   "tier": 0.7,
+   "alquiler_idx": 0.55,
+   "eventos": [],
+   "descripcion": "Ciudad patrimonio, mercado pequeño y costes bajos."
+  }
+ },
+ {
+  "id": 20,
+  "titulo": "La tienda de mascotas de Alicante",
+  "nombre": "Laura Castillo",
+  "edad": 31,
+  "estado_civil": "casada",
+  "hijos": 0,
+  "ahorros": 12000,
+  "max_prestamo": 18000,
+  "retiro": 1100,
+  "vivienda": "Piso en propiedad con hipoteca (550 €/mes)",
+  "estudios": "Auxiliar Veterinaria (Grado Medio)",
+  "experiencia": "5 años como responsable de una tienda de mascotas",
+  "patrimonio": "Piso con hipoteca",
+  "afinidad": {
+   "mascotas": 1.15,
+   "salud": 0.4,
+   "belleza": 0.4,
+   "hogar": 0.4,
+   "moda": 0.25,
+   "software": 0.15
+  },
+  "ideal": {
+   "forma": "sl",
+   "sector": "mascotas",
+   "modalidad": "local",
+   "nota": "Experiencia, ahorros y capacidad de endeudamiento: una tienda con peluquería canina y servicios. La SL protege el piso familiar."
+  },
+  "texto": [
+   "Laura tiene 31 años, está casada y vive en Alicante. Es Auxiliar Veterinaria y lleva cinco años de responsable en una tienda de mascotas. Conoce al cliente y al proveedor y ha ayudado a abrir tres tiendas nuevas.",
+   "Tiene 12.000 € ahorrados y puede pedir hasta 18.000 € al banco. Necesita unos 1.100 € al mes; su marido trabaja y cubre parte de los gastos.",
+   "Quiere abrir su propia tienda con servicios de peluquería, guardería y accesorios. En Alicante el turismo trae gente extranjera con mascotas. Teme las deudas.",
+   "Decide forma jurídica, capital y productos. Piensa cuánto stock necesitas."
+  ],
+  "dificultad": 2,
+  "ubicacion": {
+   "ciudad": "Alicante",
+   "provincia": "Alicante",
+   "ccaa": "Comunitat Valenciana",
+   "poblacion": 337000,
+   "tier": 1.0,
+   "alquiler_idx": 0.95,
+   "eventos": [],
+   "descripcion": "Ciudad mediterránea con turismo y estudiantes."
+  }
+ },
+ {
+  "id": 21,
+  "titulo": "El gimnasio imposible",
+  "nombre": "Diego Herrera",
+  "edad": 19,
+  "estado_civil": "soltero",
+  "hijos": 0,
+  "ahorros": 1500,
+  "max_prestamo": 0,
+  "retiro": 400,
+  "vivienda": "Vive con sus padres",
+  "estudios": "Bachillerato",
+  "experiencia": "Entrena desde los 15 y tiene mucha afición, sin experiencia laboral",
+  "patrimonio": "",
+  "afinidad": {
+   "deporte": 0.65,
+   "tecnologia": 0.3,
+   "mascotas": 0.2,
+   "moda": 0.25,
+   "hosteleria": 0.2,
+   "reformas": 0.1
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "deporte",
+   "modalidad": "domicilio",
+   "nota": "Quiere abrir un gimnasio con 1.500 €: imposible. La opción realista es entrenamiento personal sin local y con mínima inversión; el gimnasio quiebra rápido por falta de liquidez."
+  },
+  "texto": [
+   "Diego tiene 19 años y acaba de terminar Bachillerato en Murcia. Entrena desde los 15 y tiene muchos seguidores en TikTok (80.000). Vive con sus padres y no tiene experiencia laboral. Está convencido de que puede montar un gimnasio ya que conoce todas las máquinas.",
+   "Tiene 1.500 € ahorrados (regalos y verano trabajando de socorrista). Ningún banco le daría un préstamo. Necesita unos 400 € al mes.",
+   "Quiere abrir un gimnasio de barrio con musculación y clases dirigidas. Sabe que las máquinas cuestan mucho pero cree que 'ya se arreglará'. Murcia tiene mucha población joven.",
+   "Decide forma jurídica, modalidad, inversión y servicios. Justifica tu decisión con los números."
+  ],
+  "dificultad": 3,
+  "ubicacion": {
+   "ciudad": "Murcia",
+   "provincia": "Murcia",
+   "ccaa": "Región de Murcia",
+   "poblacion": 460000,
+   "tier": 0.95,
+   "alquiler_idx": 0.85,
+   "eventos": [],
+   "descripcion": "Ciudad grande con alta población joven y huerta."
+  }
+ },
+ {
+  "id": 22,
+  "titulo": "La limpiadora que quiere su empresa",
+  "nombre": "Rosa Jiménez",
+  "edad": 47,
+  "estado_civil": "casada",
+  "hijos": 1,
+  "ahorros": 3000,
+  "max_prestamo": 5000,
+  "retiro": 900,
+  "vivienda": "Vive en un piso alquilado (450 €/mes)",
+  "estudios": "Educación Secundaria",
+  "experiencia": "15 años limpiando casas por horas sin contrato",
+  "patrimonio": "",
+  "afinidad": {
+   "limpieza": 1.15,
+   "hogar": 0.45,
+   "mascotas": 0.35,
+   "reformas": 0.35,
+   "moda": 0.1,
+   "software": 0.05
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "limpieza",
+   "modalidad": "domicilio",
+   "nota": "Servicio local de bajo coste y mucha demanda: autónoma, trabajando a domicilio y con una persona de apoyo cuando la demanda lo pida."
+  },
+  "texto": [
+   "Rosa tiene 47 años, está casada y tiene un hijo de 17 años. Su marido está en paro desde hace un año. Lleva quince años limpiando casas por horas para varias familias de Almería, sin contrato ni alta, y tiene lista de espera de clientes.",
+   "Tiene 3.000 € ahorrados y no tiene patrimonio. Un banco le prestaría hasta 5.000 € con aval de una hermana. Necesita unos 900 € al mes.",
+   "Quiere darse de alta y ofrecer limpieza de hogares, oficinas y comunidades. No sabe de facturas ni impuestos. Para crecer necesitará gente que la ayude.",
+   "Decide forma jurídica, cuántos empleados contratar y qué servicios ofrecer."
+  ],
+  "dificultad": 1,
+  "ubicacion": {
+   "ciudad": "Almería",
+   "provincia": "Almería",
+   "ccaa": "Andalucía",
+   "poblacion": 200000,
+   "tier": 0.9,
+   "alquiler_idx": 0.8,
+   "eventos": [],
+   "descripcion": "Ciudad con agricultura intensiva y costes moderados."
+  }
+ },
+ {
+  "id": 23,
+  "titulo": "La startup de Tomás",
+  "nombre": "Tomás Aguilar",
+  "edad": 37,
+  "estado_civil": "soltero",
+  "hijos": 0,
+  "ahorros": 30000,
+  "max_prestamo": 0,
+  "retiro": 1800,
+  "vivienda": "Piso de alquiler (1.000 €/mes)",
+  "estudios": "Grado en ADE, máster en ventas",
+  "experiencia": "12 años como comercial de software; no programa",
+  "patrimonio": "",
+  "afinidad": {
+   "consultoria": 1.0,
+   "software": 0.6,
+   "formacion": 0.6,
+   "deporte": 0.35,
+   "moda": 0.2,
+   "hosteleria": 0.15
+  },
+  "ideal": {
+   "forma": "sl",
+   "sector": "consultoria",
+   "modalidad": "online",
+   "nota": "Tomás sabe vender pero no programar: su valor está en la consultoría comercial. La idea de la app es peligrosa si no tiene un socio técnico."
+  },
+  "texto": [
+   "Tomás tiene 37 años, vive en Madrid y es comercial de software. Acaba de ahorrar 30.000 € y quiere montar una start-up. Tiene un ADE y un máster en ventas, pero no sabe programar. Tiene la idea de una app de entrenamiento y piensa que 'ya encontrará un programador'.",
+   "No tiene patrimonio y no quiere pedir préstamos. Necesita unos 1.800 € al mes.",
+   "Es excelente vendiendo y conoce a mucha gente en el mundo de la tecnología. Desarrollar una app costaría entre 5.000 y 10.000 € y tardaría meses. Podría ofrecer consultoría comercial a start-ups mientras tanto.",
+   "Elige forma jurídica, modalidad y servicios con realismo."
+  ],
+  "dificultad": 3,
+  "ubicacion": {
+   "ciudad": "Madrid",
+   "provincia": "Madrid",
+   "ccaa": "Comunidad de Madrid",
+   "poblacion": 3300000,
+   "tier": 1.5,
+   "alquiler_idx": 1.7,
+   "eventos": [],
+   "descripcion": "Gran capital: mucha demanda, mucha competencia y alquileres altísimos."
+  }
+ },
+ {
+  "id": 24,
+  "titulo": "La peluquera de Vigo",
+  "nombre": "Paula Romero",
+  "edad": 26,
+  "estado_civil": "soltera",
+  "hijos": 0,
+  "ahorros": 10000,
+  "max_prestamo": 14000,
+  "retiro": 1000,
+  "vivienda": "Vive con su pareja en un piso alquilado (500 €/mes)",
+  "estudios": "Grado Medio en Peluquería",
+  "experiencia": "6 años en un salón, 2 como oficial",
+  "patrimonio": "",
+  "afinidad": {
+   "belleza": 1.2,
+   "salud": 0.4,
+   "moda": 0.45,
+   "mascotas": 0.3,
+   "hogar": 0.2,
+   "software": 0.1
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "belleza",
+   "modalidad": "local",
+   "nota": "Mucho oficio y clientela fiel: peluquería pequeña como autónoma. El riesgo es sobreinvertir en equipo y contratar demasiado pronto."
+  },
+  "texto": [
+   "Paula tiene 26 años y vive en Vigo con su pareja. Es peluquera y lleva seis años en un salón. Los dos últimos como oficial. Tiene muchas clientas fijas y muy buena fama en Instagram. Cada fin de semana corta el pelo en casa a conocidas.",
+   "Tiene 10.000 € ahorrados y podría pedir un préstamo de hasta 14.000 €. Necesita unos 1.000 € al mes.",
+   "Quiere abrir su propia peluquería con cortes, tintes y alguna venta de productos. En Vigo hay mucha competencia pero ella tiene clientela. Le ofrecieron un local pequeño en el centro y duda entre abrir sola o con una ayudante.",
+   "Decide forma jurídica, financiación y empleados. Mide el riesgo de contratar."
+  ],
+  "dificultad": 2,
+  "ubicacion": {
+   "ciudad": "Vigo",
+   "provincia": "Pontevedra",
+   "ccaa": "Galicia",
+   "poblacion": 295000,
+   "tier": 1.0,
+   "alquiler_idx": 0.9,
+   "eventos": [],
+   "descripcion": "Ciudad industrial y portuaria, con un comercio local muy activo."
+  }
+ },
+ {
+  "id": 25,
+  "titulo": "La academia de idiomas de Segovia",
+  "nombre": "Gonzalo Rivas",
+  "edad": 29,
+  "estado_civil": "soltero",
+  "hijos": 0,
+  "ahorros": 11000,
+  "max_prestamo": 8000,
+  "retiro": 1100,
+  "vivienda": "Vive de alquiler (480 €/mes)",
+  "estudios": "Filología Inglesa; certificado C2; formación como profesor",
+  "experiencia": "5 años de profesor en una academia de idiomas",
+  "patrimonio": "",
+  "afinidad": {
+   "formacion": 1.15,
+   "consultoria": 0.6,
+   "software": 0.35,
+   "turismo": 0.45,
+   "moda": 0.1,
+   "reformas": 0.1
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "formacion",
+   "modalidad": "local",
+   "nota": "Profesor con experiencia, capital moderado y servicios: autónomo con un local pequeño. La actividad es muy estacional por el calendario escolar."
+  },
+  "texto": [
+   "Gonzalo tiene 29 años y vive en Segovia. Es filólogo, tiene el C2 de inglés y lleva cinco años de profesor en una academia de idiomas de la ciudad. Los padres piden clases para sus hijos y las empresas turísticas piden cursos para sus empleados.",
+   "Tiene 11.000 € ahorrados y puede obtener un préstamo de hasta 8.000 €. Necesita unos 1.100 € al mes.",
+   "Quiere abrir su propia academia con clases en grupo, clases particulares y cursos para empresas. En Segovia hay turismo todo el año, pero desde mediados de junio hasta septiembre la actividad escolar se reduce muchísimo.",
+   "Elige forma jurídica, modalidad y servicios. Piensa cómo cubrir el verano."
+  ],
+  "dificultad": 2,
+  "ubicacion": {
+   "ciudad": "Segovia",
+   "provincia": "Segovia",
+   "ccaa": "Castilla y León",
+   "poblacion": 51000,
+   "tier": 0.75,
+   "alquiler_idx": 0.8,
+   "eventos": [],
+   "descripcion": "Ciudad patrimonio con turismo de fin de semana."
+  }
+ },
+ {
+  "id": 26,
+  "titulo": "La casa rural de Ronda",
+  "nombre": "Miriam Serrano",
+  "edad": 36,
+  "estado_civil": "casada",
+  "hijos": 1,
+  "ahorros": 20000,
+  "max_prestamo": 30000,
+  "retiro": 1100,
+  "vivienda": "Casa heredada en el campo con 6 habitaciones",
+  "estudios": "Grado en Turismo",
+  "experiencia": "8 años de recepcionista y jefa de sala en hoteles",
+  "patrimonio": "Casa rural heredada",
+  "afinidad": {
+   "turismo": 1.2,
+   "hosteleria": 0.6,
+   "agro": 0.55,
+   "eventos": 0.5,
+   "moda": 0.1,
+   "software": 0.2
+  },
+  "ideal": {
+   "forma": "sl",
+   "sector": "turismo",
+   "modalidad": "local",
+   "nota": "Hay un inmueble con potencial, capital y préstamo disponible. SL por el volumen de inversión y por separar el patrimonio. La estacionalidad es clave."
+  },
+  "texto": [
+   "Miriam tiene 36 años, está casada y tiene una hija de 5 años. Ha heredado una casa de campo cerca de Ronda con seis habitaciones y piscina. Tiene el Grado en Turismo y ocho años en hoteles de la zona como recepcionista y jefa de sala.",
+   "Tiene 20.000 € ahorrados y la casa le sirve de garantía para un préstamo de hasta 30.000 €. Necesita unos 1.100 € al mes.",
+   "Quiere reformar y abrir un alojamiento rural con desayunos, experiencias gastronómicas y excursiones. Ronda tiene turismo constante, con pico en primavera y verano. La casa necesita una reforma.",
+   "Decide forma jurídica, financiación, personal y servicios."
+  ],
+  "dificultad": 3,
+  "ubicacion": {
+   "ciudad": "Ronda",
+   "provincia": "Málaga",
+   "ccaa": "Andalucía",
+   "poblacion": 34000,
+   "tier": 0.7,
+   "alquiler_idx": 0.7,
+   "eventos": [],
+   "descripcion": "Pueblo turístico de interior, famoso por su puente y sus rutas rurales."
+  }
+ },
+ {
+  "id": 27,
+  "titulo": "El carpintero restaurador",
+  "nombre": "Óscar Delgado",
+  "edad": 32,
+  "estado_civil": "soltero",
+  "hijos": 0,
+  "ahorros": 9000,
+  "max_prestamo": 12000,
+  "retiro": 1000,
+  "vivienda": "Vive en un piso alquilado (420 €/mes)",
+  "estudios": "Grado Medio en Carpintería y Mueble",
+  "experiencia": "8 años en una carpintería; restaura muebles antiguos como afición",
+  "patrimonio": "",
+  "afinidad": {
+   "hogar": 1.1,
+   "artesania": 0.8,
+   "reformas": 0.7,
+   "transporte": 0.3,
+   "moda": 0.1,
+   "software": 0.1
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "hogar",
+   "modalidad": "local",
+   "nota": "Producto artesanal con margen alto y poco stock. Autónomo con un taller pequeño; la SL no compensa con volúmenes bajos."
+  },
+  "texto": [
+   "Óscar tiene 32 años y vive en Huesca. Es carpintero y lleva ocho años en una carpintería. Fuera del trabajo compra muebles antiguos y los restaura. Los vende en mercadillos y por Wallapop.",
+   "Tiene 9.000 € ahorrados y puede obtener hasta 12.000 € de préstamo. Necesita unos 1.000 € al mes.",
+   "Quiere montar un taller-tienda con muebles restaurados, decoración y algún trabajo a medida. En Huesca hay poca población pero turismo en la zona del Pirineo. Las ventas suben en Navidad.",
+   "Elige forma jurídica, modalidad y productos."
+  ],
+  "dificultad": 2,
+  "ubicacion": {
+   "ciudad": "Huesca",
+   "provincia": "Huesca",
+   "ccaa": "Aragón",
+   "poblacion": 53000,
+   "tier": 0.7,
+   "alquiler_idx": 0.6,
+   "eventos": [],
+   "descripcion": "Capital pequeña a los pies del Pirineo."
+  }
+ },
+ {
+  "id": 28,
+  "titulo": "El alquiler de kayaks",
+  "nombre": "Cristina Lara",
+  "edad": 28,
+  "estado_civil": "soltera",
+  "hijos": 0,
+  "ahorros": 7000,
+  "max_prestamo": 10000,
+  "retiro": 1100,
+  "vivienda": "Vive en un piso alquilado (650 €/mes)",
+  "estudios": "Técnico deportivo en vela y piragüismo",
+  "experiencia": "4 años en un club náutico",
+  "patrimonio": "",
+  "afinidad": {
+   "turismo": 1.15,
+   "deporte": 0.8,
+   "hosteleria": 0.4,
+   "formacion": 0.4,
+   "moda": 0.15,
+   "software": 0.1
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "turismo",
+   "modalidad": "local",
+   "nota": "Actividad de ocio con demanda constante en Lanzarote; con poco capital, autónoma con local pequeño o puesto en la playa. Controla el gasto en material."
+  },
+  "texto": [
+   "Cristina tiene 28 años y vive en Arrecife (Lanzarote). Es técnica deportiva en vela y piragüismo y lleva cuatro años trabajando en un club náutico. Conoce las rutas de la costa y tiene contactos con alojamientos turísticos.",
+   "Tiene 7.000 € ahorrados y puede conseguir hasta 10.000 € de préstamo. Necesita unos 1.100 € al mes.",
+   "Quiere alquilar kayaks, bicicletas y organizar excursiones. El turismo es casi constante todo el año, aunque bajan algo en primavera y otoño. El material (kayaks, chalecos, remos) cuesta dinero y se estropea.",
+   "Decide forma jurídica, inversión y servicios. ¿Local o sin local?"
+  ],
+  "dificultad": 2,
+  "ubicacion": {
+   "ciudad": "Arrecife",
+   "provincia": "Las Palmas",
+   "ccaa": "Canarias",
+   "poblacion": 64000,
+   "tier": 1.0,
+   "alquiler_idx": 1.1,
+   "eventos": [],
+   "descripcion": "Capital de Lanzarote: turismo todo el año y costes insulares."
+  }
+ },
+ {
+  "id": 29,
+  "titulo": "Las naranjas de Alzira",
+  "nombre": "Samuel Vega",
+  "edad": 40,
+  "estado_civil": "casado",
+  "hijos": 2,
+  "ahorros": 8000,
+  "max_prestamo": 15000,
+  "retiro": 1300,
+  "vivienda": "Casa en propiedad; finca de 3 hectáreas de naranjos",
+  "estudios": "FP Agraria",
+  "experiencia": "20 años cultivando naranjas y vendiéndolas a cooperativa",
+  "patrimonio": "Casa y finca de 3 hectáreas",
+  "afinidad": {
+   "agro": 1.2,
+   "alimentacion": 0.9,
+   "turismo": 0.5,
+   "transporte": 0.4,
+   "moda": 0.1,
+   "software": 0.2
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "agro",
+   "modalidad": "online",
+   "nota": "La DANA de octubre de 2024 afectó de lleno a Alzira. Un agricultor que vende directo online puede sobrevivir con colchón, pero el shock hundirá las ventas varios meses."
+  },
+  "texto": [
+   "Samuel tiene 40 años, está casado y tiene dos hijos. Cultiva tres hectáreas de naranjos en Alzira desde hace veinte años y vende la fruta a una cooperativa a un precio muy bajo. Quiere vender directamente al consumidor por internet y a tiendas de la zona.",
+   "Tiene 8.000 € ahorrados y puede conseguir hasta 15.000 € de préstamo con la finca de garantía. Necesita unos 1.300 € al mes.",
+   "Quiere vender cestas de fruta, miel, aceite y mermeladas. Es un negocio estacional (la naranja se cosecha en invierno). Alzira es un municipio de la Ribera Alta, una zona con riesgo de inundaciones.",
+   "Elige forma jurídica, modalidad y productos. Ojo con el año en el que arrancas."
+  ],
+  "dificultad": 2,
+  "ubicacion": {
+   "ciudad": "Alzira",
+   "provincia": "Valencia",
+   "ccaa": "Comunitat Valenciana",
+   "poblacion": 45000,
+   "tier": 0.85,
+   "alquiler_idx": 0.7,
+   "eventos": [
+    "dana"
+   ],
+   "descripcion": "Capital de la Ribera Alta, rodeada de naranjos y muy golpeada por la DANA."
+  }
+ },
+ {
+  "id": 30,
+  "titulo": "La gestora de Barcelona",
+  "nombre": "Daniela Rojas",
+  "edad": 27,
+  "estado_civil": "soltera",
+  "hijos": 0,
+  "ahorros": 6000,
+  "max_prestamo": 8000,
+  "retiro": 1300,
+  "vivienda": "Vive de alquiler con una amiga (650 €/mes)",
+  "estudios": "Grado Medio en Gestión Administrativa y Grado Superior en Administración y Finanzas",
+  "experiencia": "4 años en una gestoría de la ciudad",
+  "patrimonio": "",
+  "afinidad": {
+   "consultoria": 1.2,
+   "software": 0.45,
+   "formacion": 0.65,
+   "eventos": 0.3,
+   "moda": 0.15,
+   "hosteleria": 0.1
+  },
+  "ideal": {
+   "forma": "autonomo",
+   "sector": "consultoria",
+   "modalidad": "local",
+   "nota": "Pocos costes y alto valor profesional: gestora autónoma con oficina pequeña o a domicilio. En Barcelona el alquiler puede comerse el margen."
+  },
+  "texto": [
+   "Daniela tiene 27 años y vive en Barcelona de alquiler con una amiga. Estudió el Grado Medio de Gestión Administrativa y después el Superior de Administración y Finanzas. Lleva cuatro años en una gestoría llevando contabilidad, impuestos y nóminas de autónomos y pymes.",
+   "Tiene 6.000 € ahorrados y puede pedir hasta 8.000 € de préstamo. Necesita unos 1.300 € al mes.",
+   "Quiere montar su propia gestoría para autónomos y pymes, con asesoría contable, trámites y quizá algún servicio de marketing. Varios clientes de la gestoría la seguirían. En Barcelona hay mucha competencia y los alquileres son muy altos.",
+   "Elige forma jurídica, modalidad y servicios. ¿Es necesario alquilar un local?"
+  ],
+  "dificultad": 2,
+  "ubicacion": {
+   "ciudad": "Barcelona",
+   "provincia": "Barcelona",
+   "ccaa": "Cataluña",
+   "poblacion": 1620000,
+   "tier": 1.45,
+   "alquiler_idx": 1.8,
+   "eventos": [],
+   "descripcion": "Capital catalana: demanda enorme, competencia fuerte y costes elevados."
+  }
+ }
+]
